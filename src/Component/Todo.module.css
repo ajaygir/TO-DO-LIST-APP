@@ -1,0 +1,59 @@
+.card{
+    background-color: white;
+    padding: 40px 100px;
+    width: 50%;
+
+    border-radius: 10px;
+    box-shadow:  0 0 15px rgba(0,0,0,0.2);
+}
+
+.card h1{
+    text-align: center;
+
+}
+
+.card p{
+    font-size: 18px;
+}
+
+form{
+    display: flex;
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(244, 249, 249);
+    border-radius: 5px;
+
+}
+
+ form button{
+    width: 140px;
+    font-size: large;
+    padding: 1px;
+    background-color: rgb(205, 234, 243);
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+h4{
+    text-align: center;
+    font-size: 18px;
+   
+}
+
+.clearall{
+    background-color: transparent;
+    width: 100%;
+    border-radius:  14px;
+    border: solid rgb(147, 147, 234);
+    padding: 10px 20px;
+}
+
+.clearall:hover{
+    border: 1px solid black;
+    transform: scale(0.98);
+}
